@@ -30,3 +30,79 @@ This project predicts real estate prices in Bangalore using machine learning and
 ```bash
 git clone https://github.com/imakhxl/Real-Estate-Price-Prediction-in-Banglore.git
 cd Real-Estate-Price-Prediction-in-Banglore/server
+
+2. Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+3. Install dependencies
+pip install -r requirements.txt
+
+Usage
+Run locally with Flask
+python server.py
+
+
+API Endpoints:
+
+GET /get_location_names → returns all available locations
+
+POST /predict_home_price → predict home price with total_sqft, bhk, bath, location
+
+Run with Gunicorn (Production-ready)
+nohup gunicorn --bind 0.0.0.0:5000 server:app &
+
+
+Access locally at http://127.0.0.1:5000
+
+Deployment
+
+Deployed on AWS EC2 t3.micro instance
+
+Gunicorn serves the Flask app, optionally behind Nginx
+
+API accessible over the internet via EC2 public IP or domain
+
+Live demo: Available on request
+
+File Structure
+.
+├── server/
+│   ├── server.py
+│   ├── util.py
+│   └── artifacts/
+│       ├── columns.json
+│       └── banglore_home_prices_model.pickle
+├── client/
+│   ├── app.html
+│   ├── app.css
+│   └── app.js
+├── model/
+│   ├── banglore_home_prices_model.pickle
+│   ├── columns.json
+│   └── Real Estate Price Prediction in Banglore.ipynb
+├── requirements.txt
+└── README.md
+
+How to Contribute
+
+Fork the repository
+
+Create your branch: git checkout -b feature-name
+
+Commit your changes: git commit -m "Description of changes"
+
+Push to the branch: git push origin feature-name
+
+Create a Pull Request
+
+License
+
+MIT License
+
+Contact
+
+GitHub: imakhxl
+
+Email: your-email@example.com
