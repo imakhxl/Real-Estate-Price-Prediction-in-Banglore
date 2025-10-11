@@ -38,24 +38,22 @@ venv\Scripts\activate      # Windows
 3. Install dependencies
 pip install -r requirements.txt
 
-Usage
+###Usage
 Run locally with Flask
 python server.py
 
 
-API Endpoints:
+###API Endpoints:
 
-GET /get_location_names → returns all available locations
+1. GET /get_location_names → returns all available locations
 
-POST /predict_home_price → predict home price with total_sqft, bhk, bath, location
+2. POST /predict_home_price → predict home price with total_sqft, bhk, bath, location
 
 Run with Gunicorn (Production-ready)
 nohup gunicorn --bind 0.0.0.0:5000 server:app &
 
 
-Access locally at http://127.0.0.1:5000
-
-Deployment
+### Deployment
 
 Deployed on AWS EC2 t3.micro instance
 
@@ -84,25 +82,26 @@ File Structure
 ├── requirements.txt
 └── README.md
 
-How to Contribute
+### How to Contribute
 
-Fork the repository
+- Fork the repository
 
-Create your branch: git checkout -b feature-name
+- Create your branch: git checkout -b feature-name
 
-Commit your changes: git commit -m "Description of changes"
+- Commit your changes: git commit -m "Description of changes"
 
-Push to the branch: git push origin feature-name
+- Push to the branch: git push origin feature-name
 
-Create a Pull Request
+- Create a Pull Request
 
-License
+### License
 
 MIT License
 
-Contact
+### Contact
 
 GitHub: imakhxl
 
 Email: akhilj2003@gmail.com.com
+
 
