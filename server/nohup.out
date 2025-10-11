@@ -1,0 +1,214 @@
+[2025-10-10 20:07:01 +0000] [33855] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 20:07:01 +0000] [33855] [INFO] Listening at: http://0.0.0.0:5000 (33855)
+[2025-10-10 20:07:01 +0000] [33855] [INFO] Using worker: sync
+[2025-10-10 20:07:01 +0000] [33856] [INFO] Booting worker with pid: 33856
+[2025-10-10 20:07:43 +0000] [33858] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 20:07:43 +0000] [33858] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-10-10 20:07:43 +0000] [33858] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 98] Address already in use
+[2025-10-10 20:07:44 +0000] [33858] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-10-10 20:07:44 +0000] [33858] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 98] Address already in use
+[2025-10-10 20:07:45 +0000] [33858] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-10-10 20:07:45 +0000] [33858] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 98] Address already in use
+[2025-10-10 20:07:46 +0000] [33858] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-10-10 20:07:46 +0000] [33858] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 98] Address already in use
+[2025-10-10 20:07:47 +0000] [33858] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2025-10-10 20:07:47 +0000] [33858] [ERROR] connection to ('0.0.0.0', 5000) failed: [Errno 98] Address already in use
+[2025-10-10 20:07:48 +0000] [33858] [ERROR] Can't connect to ('0.0.0.0', 5000)
+[2025-10-10 20:11:47 +0000] [33856] [INFO] Worker exiting (pid: 33856)
+[2025-10-10 20:11:47 +0000] [34261] [INFO] Booting worker with pid: 34261
+[2025-10-10 20:30:09 +0000] [33855] [ERROR] Worker (pid:34261) was sent SIGHUP!
+[2025-10-10 20:30:09 +0000] [35015] [INFO] Booting worker with pid: 35015
+[2025-10-10 20:30:09 +0000] [33855] [INFO] Handling signal: hup
+[2025-10-10 20:30:09 +0000] [33855] [INFO] Hang up: Master
+[2025-10-10 20:30:09 +0000] [35017] [INFO] Booting worker with pid: 35017
+[2025-10-10 20:30:09 +0000] [35015] [INFO] Worker exiting (pid: 35015)
+[2025-10-10 20:49:10 +0000] [33855] [INFO] Handling signal: term
+[2025-10-10 20:49:10 +0000] [35017] [INFO] Worker exiting (pid: 35017)
+[2025-10-10 20:49:10 +0000] [33855] [INFO] Shutting down: Master
+[2025-10-10 20:50:13 +0000] [35792] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 20:50:13 +0000] [35792] [INFO] Listening at: http://0.0.0.0:5000 (35792)
+[2025-10-10 20:50:13 +0000] [35792] [INFO] Using worker: sync
+[2025-10-10 20:50:13 +0000] [35793] [INFO] Booting worker with pid: 35793
+[2025-10-10 20:54:21 +0000] [35793] [INFO] Worker exiting (pid: 35793)
+[2025-10-10 20:54:21 +0000] [35792] [INFO] Handling signal: term
+[2025-10-10 20:54:21 +0000] [35792] [ERROR] Worker (pid:35793) was sent SIGTERM!
+[2025-10-10 20:54:21 +0000] [35792] [INFO] Shutting down: Master
+[2025-10-10 20:55:02 +0000] [35919] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 20:55:02 +0000] [35919] [INFO] Listening at: http://0.0.0.0:5000 (35919)
+[2025-10-10 20:55:02 +0000] [35919] [INFO] Using worker: sync
+[2025-10-10 20:55:02 +0000] [35920] [INFO] Booting worker with pid: 35920
+[2025-10-10 21:00:50 +0000] [35919] [INFO] Handling signal: hup
+[2025-10-10 21:00:50 +0000] [35919] [INFO] Hang up: Master
+[2025-10-10 21:00:50 +0000] [35919] [ERROR] Worker (pid:35920) was sent SIGHUP!
+[2025-10-10 21:00:50 +0000] [36200] [INFO] Booting worker with pid: 36200
+[2025-10-10 21:02:37 +0000] [35919] [INFO] Handling signal: term
+[2025-10-10 21:02:37 +0000] [36200] [INFO] Worker exiting (pid: 36200)
+[2025-10-10 21:02:37 +0000] [35919] [INFO] Shutting down: Master
+[2025-10-10 21:03:05 +0000] [36375] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 21:03:05 +0000] [36375] [INFO] Listening at: http://0.0.0.0:5000 (36375)
+[2025-10-10 21:03:05 +0000] [36375] [INFO] Using worker: sync
+[2025-10-10 21:03:05 +0000] [36376] [INFO] Booting worker with pid: 36376
+[2025-10-10 21:07:13 +0000] [36375] [INFO] Handling signal: term
+[2025-10-10 21:07:13 +0000] [36376] [INFO] Worker exiting (pid: 36376)
+[2025-10-10 21:07:14 +0000] [36375] [INFO] Shutting down: Master
+[2025-10-10 21:07:25 +0000] [36524] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 21:07:25 +0000] [36524] [INFO] Listening at: http://0.0.0.0:5000 (36524)
+[2025-10-10 21:07:25 +0000] [36524] [INFO] Using worker: sync
+[2025-10-10 21:07:25 +0000] [36525] [INFO] Booting worker with pid: 36525
+[2025-10-10 21:09:39 +0000] [36524] [INFO] Handling signal: term
+[2025-10-10 21:09:39 +0000] [36525] [INFO] Worker exiting (pid: 36525)
+[2025-10-10 21:09:39 +0000] [36524] [INFO] Shutting down: Master
+[2025-10-10 21:09:50 +0000] [36592] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 21:09:50 +0000] [36592] [INFO] Listening at: http://0.0.0.0:5000 (36592)
+[2025-10-10 21:09:50 +0000] [36592] [INFO] Using worker: sync
+[2025-10-10 21:09:50 +0000] [36593] [INFO] Booting worker with pid: 36593
+[2025-10-10 21:21:36 +0000] [36592] [INFO] Handling signal: term
+[2025-10-10 21:21:36 +0000] [36593] [INFO] Worker exiting (pid: 36593)
+[2025-10-10 21:21:36 +0000] [36592] [INFO] Shutting down: Master
+[2025-10-10 21:21:48 +0000] [37155] [INFO] Starting gunicorn 23.0.0
+[2025-10-10 21:21:48 +0000] [37155] [INFO] Listening at: http://0.0.0.0:5000 (37155)
+[2025-10-10 21:21:48 +0000] [37155] [INFO] Using worker: sync
+[2025-10-10 21:21:48 +0000] [37156] [INFO] Booting worker with pid: 37156
+[2025-10-10 21:22:47,443] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:22:47,641] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:22:47,790] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:22:57,124] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:22:57,302] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:22:57,471] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:23:03,300] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:23:03,539] ERROR in app: Exception on /predict_home_price [POST]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/home/ec2-user/BanglorePricePrediction/server/server.py", line 23, in predict_home_price
+    'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+  File "/home/ec2-user/BanglorePricePrediction/server/util.py", line 15, in get_estimated_price
+    x = np.zeros(len(__data_columns))
+TypeError: object of type 'NoneType' has no len()
+[2025-10-10 21:24:34 +0000] [37156] [INFO] Worker exiting (pid: 37156)
+[2025-10-10 21:24:34 +0000] [37279] [INFO] Booting worker with pid: 37279
+[2025-10-10 21:24:48 +0000] [37155] [INFO] Handling signal: term
+[2025-10-10 21:24:48 +0000] [37279] [INFO] Worker exiting (pid: 37279)
+[2025-10-10 21:24:48 +0000] [37155] [INFO] Shutting down: Master
+[2025-10-11 04:52:29 +0000] [52309] [INFO] Starting gunicorn 23.0.0
+[2025-10-11 04:52:29 +0000] [52309] [INFO] Listening at: http://0.0.0.0:5000 (52309)
+[2025-10-11 04:52:29 +0000] [52309] [INFO] Using worker: sync
+[2025-10-11 04:52:29 +0000] [52310] [INFO] Booting worker with pid: 52310
+/home/ec2-user/.local/lib/python3.9/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/home/ec2-user/.local/lib/python3.9/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/home/ec2-user/.local/lib/python3.9/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/home/ec2-user/.local/lib/python3.9/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/home/ec2-user/.local/lib/python3.9/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+[2025-10-11 04:58:47 +0000] [52309] [INFO] Handling signal: hup
+[2025-10-11 04:58:47 +0000] [52309] [INFO] Hang up: Master
+[2025-10-11 04:58:47 +0000] [52309] [ERROR] Worker (pid:52310) was sent SIGHUP!
+[2025-10-11 04:58:47 +0000] [52514] [INFO] Booting worker with pid: 52514

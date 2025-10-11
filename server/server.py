@@ -3,14 +3,18 @@ import util
 
 app = Flask(__name__)
 
+# Load model and data when the server starts (works with Gunicorn too)
+print("Loading artifacts on server start...")
+util.load_saved_artifacts()
+
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
     response = jsonify({
         'locations': util.get_location_names()
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
-
     return response
+
 
 @app.route('/predict_home_price', methods=['GET', 'POST'])
 def predict_home_price():
@@ -20,33 +24,12 @@ def predict_home_price():
     bath = int(request.form['bath'])
 
     response = jsonify({
-        'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
+        'estimated_price': util.get_estimated_price(location, total_sqft, bhk, bath)
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
-
     return response
-
-# @app.route('/predict_home_price', methods=['GET', 'POST'])
-# def predict_home_price():
-#     data = request.get_json()
-#     print("DEBUG incoming data:", data)  # 👈 print incoming request
-#     if not data:
-#         return jsonify({"error": "No JSON received"}), 400
-#
-#     total_sqft = float(data['total_sqft'])
-#     location = data['location']
-#     bhk = int(data['bhk'])
-#     bath = int(data['bath'])
-#
-#     price = util.get_estimated_price(location, total_sqft, bhk, bath)
-#     print("DEBUG predicted price:", price)  # 👈 log prediction
-#
-#     response = jsonify({'estimated_price': price})
-#     response.headers.add('Access-Control-Allow-Origin', '*')
-#     return response
 
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Home Price Prediction...")
-    util.load_saved_artifacts()
     app.run()
