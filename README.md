@@ -26,8 +26,7 @@ This project predicts real estate prices in Bangalore using machine learning and
 
 ## Installation
 
-### 1. Clone the repository
-```bash
+1. Clone the repository
 git clone https://github.com/imakhxl/Real-Estate-Price-Prediction-in-Banglore.git
 cd Real-Estate-Price-Prediction-in-Banglore/server
 
@@ -105,4 +104,5 @@ Contact
 
 GitHub: imakhxl
 
-Email: your-email@example.com
+Email: akhilj2003@gmail.com.com
+
