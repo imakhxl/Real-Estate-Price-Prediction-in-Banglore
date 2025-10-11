@@ -5,6 +5,11 @@
 ## Overview
 This project predicts real estate prices in Bangalore using machine learning and provides a web-based interface for **real-time price estimation**. It demonstrates an **end-to-end ML workflow**: from data cleaning and model training to API creation and deployment on AWS.
 
+<img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/9929327d-6104-4527-bbdc-51405db44846" />
+<img width="1920" height="1080" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/98baec82-819e-494d-bf9b-dcdf7bc3aa2f" />
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/688dc7e5-a7ad-4bbd-999b-2fe59fea6f47" />
+
+
 ## Features
 - Predict housing prices in Bangalore based on **total square feet, BHK, bathrooms, and location**.
 - Real-time prediction through a **Flask API** integrated with a **responsive frontend**.
@@ -103,6 +108,7 @@ MIT License
 GitHub: imakhxl
 
 Email: akhilj2003@gmail.com.com
+
 
 
 
