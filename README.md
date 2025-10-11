@@ -38,12 +38,12 @@ venv\Scripts\activate      # Windows
 3. Install dependencies
 pip install -r requirements.txt
 
-###Usage
+### Usage
 Run locally with Flask
 python server.py
 
 
-###API Endpoints:
+### API Endpoints:
 
 1. GET /get_location_names → returns all available locations
 
@@ -103,5 +103,6 @@ MIT License
 GitHub: imakhxl
 
 Email: akhilj2003@gmail.com.com
+
 
 
